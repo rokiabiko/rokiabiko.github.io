@@ -1,0 +1,35 @@
+baseurl: "/"
+languageCode: "en-us"
+title: "Notes from the underground"
+theme: "hugo-xmin"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+footnotereturnlinkcontents: "↩"
+
+publishdir: "site/"
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: About
+      url: "about/"
+      weight: 2
+    - name: Notes
+      url: "notes/"
+      weight: 3
+    - name: Tags
+      url: "tags/"
+      weight: 3
+
+
+params:
+  description: "Thoughts from the underground."
+  footer: "&copy; Rokia Biko 2020 --  | [Unsplash](https://unsplash.com/rokiabiko) | [Instagram](https://twitter.com/rokiabiko)"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

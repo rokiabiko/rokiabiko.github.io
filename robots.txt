@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rokiabiko.github.io/sitemap.xml

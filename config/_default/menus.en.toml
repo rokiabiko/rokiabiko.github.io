@@ -21,11 +21,6 @@
   weight = 20
 
 [[main]]
-  name = "Gallery"
-  pageRef = "photos"
-  weight = 30
-
-[[main]]
   identifier = "search"
   weight = 98
   [main.params]

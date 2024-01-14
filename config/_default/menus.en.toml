@@ -20,10 +20,10 @@
   pageRef = "kitchen"
   weight = 20
 
-[[main]]
-  name = "Gallery"
-  pageRef = "photos"
-  weight = 30
+# [[main]]
+#  name = "Gallery"
+#  pageRef = "photos"
+#  weight = 30
 
 [[main]]
   identifier = "search"
